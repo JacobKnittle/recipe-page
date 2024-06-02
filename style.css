@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f3e5d7;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.center-card-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: 736px;
+	margin-top: 50px;
+	padding: 40px;
+	background-color: white;
+	border-radius: 24px;
+}
+
+img {
+	height: 300px;
+	width: 100%;
+	margin-bottom: 40px;
+	border-radius: 12px;
+}
+
+.title {
+	font-family: 'Young Serif', serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #312e2c;
+	margin-bottom: 24px;
+}
+
+.summary {
+	font-family: 'Outfit', sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	color: #5f564d;
+	font-weight: 400;
+	margin-bottom: 32px;
+}
+
+.prepare-time-container {
+	font-family: 'Outfit', sans-serif;
+	padding: 28px;
+	background-color: #fff7fb;
+	border-radius: 12px;
+	margin-bottom: 32px;
+}
+
+.prep-time {
+	font-size: 20px;
+	font-size: 700;
+	color: #7a284e;
+	margin-bottom: 16px;
+}
+
+.prepare-time-container li {
+	color: #5f564d;
+	padding-left: 16px;
+	margin-bottom: 8px;
+}
+
+.prep-items {
+	margin-left: 28px;
+}
+
+li::marker {
+	color: #7a284e;
+	font-size: 12px;
+}
+
+.ingredients-container {
+	margin-bottom: 32px;
+}
+
+.ingredients-header {
+	font-family: 'Young Serif', serif;
+	color: #854632;
+	font-size: 28px;
+	font-weight: 400;
+	padding-bottom: 24px;
+}
+
+.ingredients-list {
+	margin-left: 16px;
+}
+
+.ingredients-list li {
+	font-family: 'Outfit', sans-serif;
+	font-size: 16px;
+	color: #5f564d;
+	padding-left: 16px;
+	margin-bottom: 8px;
+}
+
+hr {
+	border: 1px solid #e3ddd7;
+	margin-bottom: 32px;
+}
+
+.instructions-header {
+	font-family: 'Young Serif', serif;
+	font-size: 28px;
+	font-weight: 400;
+	color: #854632;
+	margin-bottom: 24px;
+}
+
+.instruction-list {
+	font-family: 'Outfit', sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	margin-left: 16px;
+	margin-bottom: 32px;
+	color: #5f564d;
+}
+
+.instruction-list li {
+	padding-left: 16px;
+	margin-bottom: 8px;
+}
+
+.instruction-list li::marker {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nutrition-header {
+	font-size: 28px;
+	font-family: 'Young Serif', serif;
+	font-weight: 400;
+	color: #854632;
+	margin-bottom: 24px;
+}
+
+.table-header {
+	color: #5f564d;
+	margin-bottom: 24px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 12px 0;
+	width: 100%;
+}
+
+tr {
+	border-bottom: 1px solid #e3ddd7;
+	width: 100%;
+}
+
+tr:last-of-type {
+	border-bottom: none;
+}
+
+td:first-of-type {
+	font-family: 'Outfit', sans-serif;
+	color: #5f564d;
+}
+td:last-of-type {
+	font-family: 'Outfit', sans-serif;
+	font-weight: bold;
+	color: #854632;
+}
+
+td {
+	padding: 12px 0;
+}
+
+@media screen and (max-width: 375px) {
+	.card {
+		padding: 0;
+
+		margin-top: 0;
+	}
+
+	.text-content {
+		padding: 32px;
+	}
+
+	img {
+		height: 171px;
+	}
+
+	.title {
+		font-size: 36px;
+	}
+}
